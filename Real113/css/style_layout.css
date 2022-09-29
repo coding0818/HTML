@@ -1,0 +1,71 @@
+/*레이아웃*/
+#wrapper{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: auto;
+    height: 78px;
+    border: 1px solid  blue;
+}
+header > div {
+    width: 1000px;
+    height: 78px;
+    border: 1px solid green;
+    margin: 0 auto;
+}
+main{
+    width: 1000px;
+    height: auto;
+    margin: 5px auto;
+}
+main > div {
+    overflow: hidden;
+}
+main > div > div{
+    border: 1px solid green;
+    box-sizing: border-box;
+}
+main > div > .banner {
+    float: left;
+    width: 670px;
+    height: 320px;
+}
+main > div > .call {
+    float: right;
+    width: 326px;
+    height: 133px;
+}
+main > div > .qna {
+    float: right;
+    width: 326px;
+    height: 182px;
+    margin-top: 5px;
+}
+main > section {
+    overflow: hidden;
+}
+main > section > aside {
+    float: left;
+    width: 195px;
+    height: 760px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid green;
+}
+main > section >  article {
+    float: right;
+    width: 800px;
+    height: 250px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid green;
+}
+footer{
+    width: 1000px;
+    height: 130px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
