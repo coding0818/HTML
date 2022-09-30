@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>main</title>
+    <link rel="stylesheet" href="./css/style_main.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font: normal 12px '고딕';
+        }
+        ul, ol {list-style: none;}
+        a {text-decoration: none; color: #111;}
+
+        #wrapper{
+            width: 100%;
+            height: auto;
+        }
+        header{
+            width: auto;
+            height: 78px;
+            background: url('./img/header_bg.gif');
+        }
+        header > div {
+            position: relative;
+            width: 1000px;
+            height: 78px;
+            margin: 0 auto;
+        }
+        header .logo{
+            margin-top: 6px;
+        }
+        header .info{
+            float: left;
+        }
+        header > div > ul {
+            float: right;
+            margin-top: 14px;
+            text-align: right;
+        }
+        header > div > ul > li {
+            width: 124px;
+            height: 32px;
+            float: left;
+
+        }
+        header > div > ul > li > a{
+            color: #111; 
+            font-size: 17px;
+            font-weight: bold;
+        }
+        main{
+            width: 1000px;
+            height: auto;
+            margin: 5px auto;
+        }
+        main > div {
+            overflow: hidden;
+        }
+        main > div > div{
+            border: 1px solid green;
+            box-sizing: border-box;
+        }
+        main > div > .banner {
+            float: left;
+            width: 670px;
+            height: 320px;
+        }
+        main > div > .call {
+            float: right;
+            width: 326px;
+            height: 133px;
+        }
+        main > div > .qna {
+            float: right;
+            width: 326px;
+            height: 182px;
+            margin-top: 5px;
+        }
+        main > section {
+            overflow: hidden;
+        }
+        main > section > aside {
+            float: left;
+            width: 195px;
+            height: 760px;
+            margin-top: 5px;
+            box-sizing: border-box;
+            border: 1px solid green;
+        }
+        main > section >  article {
+            float: right;
+            width: 800px;
+            height: 250px;
+            margin-top: 5px;
+            box-sizing: border-box;
+            border: 1px solid green;
+        }
+        footer{
+            width: 1000px;
+            height: 130px;
+            border: 1px solid blue;
+            box-sizing: border-box;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div>
+                <a href="#"><img src="./img/header_logo.jpg" alt="헤더로고" class="logo"></a>
+                <ul>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">매물정보</a></li>
+                    <li><a href="#">매도의뢰</a></li>
+                    <li><a href="#">매입의뢰</a></li>
+                    <li><a href="#">질문답변</a></li>
+                </ul>
+                <a href="#"><img src="./img/header_txt_latest.gif" alt="최신매물정보" class="info"></a>
+            </div>
+        </header>
+        <main>
+            <div>
+                <div class="banner">
+                    
+                </div>
+                <div class="call">
+                    
+                </div>
+                <div class="qna">
+                    
+                </div>
+            </div>
+            <section>
+                <aside>
+                    
+                </aside>
+                <article></article>
+                <article></article>
+                <article></article>
+            </section>
+        </main>
+        <footer>
+            <div></div>
+        </footer>
+    </div>
+   
+</body>
+</html>
